@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+body{
+    background-color: rgb(187, 185, 185);
+}
+
+/* formatação do menu */
+
+.menu {
+    display: block;
+}
+.menu ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:green;
+}
+
+.menu li a:hover {
+    color: white    ;
+}
+
+/* Formatação do titulo */
+
+.titulo {
+    background-color: black;
+    color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+/* formatando texto e imagem */
+
+#historia {
+    position: relative;
+    top: 30px;
+    float: right;
+    width: 75%;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aside1 {
+    position: relative;
+    top: 70px;
+    float: left;
+    width: 25%;
+}
+
+/* formatando pagina formação */
+
+.cursos {
+    text-align: center;
+    list-style-type: none;
+    padding-top: 20px;
+}
+.cursos li {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Formatando pagina portfolio */
+
+.projetos li a {
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    padding: 10px;
+}
+
+.projetos li {
+    display: inline-block;
+}
+
+.projetos li a:hover{
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+
+.cortes img {
+    padding: 10px
+}
